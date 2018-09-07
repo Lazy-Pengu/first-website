@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css?family=ABeeZee');
+
+
+body {
+  background-color: #61636D;
+  padding-left: 295px;
+  font-family: 'ABeeZee';
+  /* background: url('banner.jpg'); */
+
+}
+
+.top-head h1 {
+  margin-bottom: 3rem;
+  margin-top: 5rem;
+  font-size: 70px;
+
+}
+
+
+.menu {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: auto; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #7F7C7C;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  /* padding-top: 20px; */
+  color: #D0C3C3;
+}
+
+.menu a {
+    padding: 0;
+    text-decoration: none;
+    font-size: 25px;
+    color: #D0C3C3;
+    display: block;
+}
+
+.top-head {
+  /* margin-left: 220px; */
+  /* padding-left: 10px; */
+  color: #FFF8F8;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: top;
+  height: auto;
+  padding-left: 3rem;
+  padding-bottom: 50px;
+
+  background: url('banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+
+
+.top-head p {
+  font-size: 17px;
+  line-height: 30px;
+  padding-right: 7rem;
+  opacity: .8;
+}
+
+
+
+ul {
+  list-style-type: none;
+  display: block;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  padding-top: 70px;
+}
+
+li {
+  padding: 20px 0px;
+  margin: 10px;
+  border: 2px solid #D0C3C3;
+
+}
+
+.categories:hover a {
+  background-color: #FDF5F5;
+  color: #851B1B;
+}
+
+.categories:hover {
+  background-color: #FDF5F5;
+  color: #851B1B;
+}
+
+
+/* .main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-left: 1.2rem;
+  padding-top: .2rem;
+}
+
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-left: 1.2rem;
+  padding-top: .2rem;
+}
+
+.education {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-left: 1.2rem;
+  padding-top: .2rem;
+} */
+
+.categories {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: .8rem 1.2rem;
+
+}
+
+#projects {
+  color: white;
+  text-align: center;
+}
+
+#projects h1 {
+  font-size: 35px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+#projects p {
+  padding : 0px minmax(150px, auto) 0px minmax(150px, auto);
+  line-height: 27px;
+}
+
+.images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  /* grid-template-columns: repeat(4, 1fr); */
+  /* grid-template-rows: minmax(150px, auto); */
+  grid-auto-rows: minmax(250px, auto);
+  padding: 0px 2rem 35px 2rem;
+  grid-gap: 1.3rem;
+}
+
+.images a {
+  text-decoration: none;
+  text-align: center;
+  line-height: 250px;
+  color: white;
+
+}
+
+.images .img-1 {
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://source.unsplash.com/random/250x250');
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 1px 5px #D0C3C3;
+
+}
+
+.images .img-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://source.unsplash.com/random/251x250');
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0 1px 5px #D0C3C3;
+
+}
+
+.images .img-3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://source.unsplash.com/random/252x250');
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 1px 5px #D0C3C3;
+
+}
+
+.images .img-4 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://source.unsplash.com/random/253x250');
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 1px 5px #D0C3C3;
+
+}
+
+.images .img-1:hover {
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url('https://source.unsplash.com/random/250x250');
+}
+
+.images .img-2:hover {
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url('https://source.unsplash.com/random/251x250');
+
+}
+
+.images .img-3:hover {
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url('https://source.unsplash.com/random/252x250');
+
+}
+
+.images .img-4:hover {
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url('https://source.unsplash.com/random/253x250');
+}
+/* .images .img-5 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://source.unsplash.com/random/254x250');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.images .img-6 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://source.unsplash.com/random/255x250');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.images .img-7 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://source.unsplash.com/random/256x250');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.images .img-8 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://source.unsplash.com/random/257x250');
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+/* .projects .images {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: minmax(100px, auto);
+}
+
+.projects img {
+  width: 100%;
+} */
+
+#education {
+  text-align: center;
+  color:white;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+#education h1 {
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+#education p {
+  display: block;
+  color: white;
+  margin: 0px 15rem 0px 15rem;
+  padding: 25px;
+  line-height: 25px;
+  border: 2px solid #D0C3C3;
+}
+
+footer {
+  color: white;
+  font-size: 13px;
+}
+
+.icons {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+.icons a {
+  text-decoration: none;
+  font-size: 17px;
+  color: inherit;
+  padding: 0px 20px 0px 20px;
+}
+
+.git {
+  color: #333;
+}
+
+.link {
+  color: #0077B5;
+}
+
+.mail {
+  color: #DB4437;
+}
+
+.face {
+  color: #3B5998;
+}
