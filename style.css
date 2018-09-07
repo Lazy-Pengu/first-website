@@ -2,7 +2,8 @@
 
 
 body {
-  background-color: #61636D;
+  /* background-color: #61636D; */
+  background-color: #F0F7EE;
   padding-left: 295px;
   font-family: 'ABeeZee';
   /* background: url('banner.jpg'); */
@@ -18,24 +19,25 @@ body {
 
 
 .menu {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: auto; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
+  height: 100%;
+  width: auto;
+  position: fixed;
+  z-index: 1;
+  top: 0;
   left: 0;
-  background-color: #7F7C7C;
-  overflow-x: hidden; /* Disable horizontal scroll */
-  /* padding-top: 20px; */
-  color: #D0C3C3;
+  /* background-color: #7F7C7C; */
+  background-color: #353434;
+  overflow-x: hidden;
+  /* color: #D0C3C3; */
+  color: #AAAAAA;
 }
 
 .menu a {
     padding: 0;
     text-decoration: none;
     font-size: 25px;
-    color: #D0C3C3;
     display: block;
+    color: #AAAAAA;
 }
 
 .top-head {
@@ -49,11 +51,15 @@ body {
   height: auto;
   padding-left: 3rem;
   padding-bottom: 50px;
+  margin: -10px;
+  overflow-x: hidden;
 
-  background: url('banner.jpg');
+  /* background-color: #9BA0BC; */
+  background-color: #4D5057;
+  /* background: url('banner.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom;
+  background-position: bottom; */
 }
 
 
@@ -124,7 +130,8 @@ li {
 }
 
 #projects {
-  color: white;
+  /* color: white; */
+  color: #535657;
   text-align: center;
 }
 
@@ -246,7 +253,8 @@ li {
 
 #education {
   text-align: center;
-  color:white;
+  /* color:white; */
+  color: #535657;
   align-items: center;
   margin-bottom: 3rem;
 }
@@ -258,7 +266,6 @@ li {
 
 #education p {
   display: block;
-  color: white;
   margin: 0px 15rem 0px 15rem;
   padding: 25px;
   line-height: 25px;
@@ -266,7 +273,8 @@ li {
 }
 
 footer {
-  color: white;
+  /* color: white; */
+  color: #535657;
   font-size: 13px;
 }
 
